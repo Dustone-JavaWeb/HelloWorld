@@ -19,6 +19,7 @@ import util.Link;
 
 public class main {
 	public static void main(String[] args) throws IOException {
+		//稍微修改
 		Link myLink=new Link("172.16.3.240","kjdown","kjdown","240课件服务器","240");
 		MainController mc=MainController.getInstance();
 		mc.login(myLink);
